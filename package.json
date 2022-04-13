@@ -1,0 +1,44 @@
+{
+  "name": "game-of-life",
+  "description": "a javascript class for creating a game-of-life game",
+  "author": "user",
+  "version": "0.1.0",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/toly11/GameOfLife.git"
+  },
+  "bugs": {
+    "url": "https://github.com/toly11/GameOfLife/issues"
+  },
+  "homepage": "https://github.com/toly11/GameOfLife#readme",
+  "keywords": [
+    "game-of-life"
+  ],
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "src"
+  ],
+  "engines": {
+    "node": ">=10"
+  },
+  "scripts": {
+    "start": "tsdx watch",
+    "build": "tsdx build",
+    "test": "tsdx test"
+  },
+  "prettier": {
+    "printWidth": 80,
+    "semi": true,
+    "singleQuote": false,
+    "trailingComma": "none"
+  },
+  "module": "dist/gameoflife.esm.js",
+  "devDependencies": {
+    "tsdx": "^0.14.1",
+    "tslib": "^2.3.1",
+    "typescript": "^4.6.3"
+  }
+}
