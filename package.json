@@ -1,5 +1,5 @@
 {
-  "name": "game-of-life",
+  "name": "the-game-of-life",
   "description": "a javascript class for creating a game-of-life game",
   "author": "user",
   "version": "0.1.0",
